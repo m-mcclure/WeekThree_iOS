@@ -4,11 +4,18 @@ import UIKit
 
 //Monday Challenge: Write a function that takes in an array of numbers, and returns the lowest and highest numbers as a tuple
 
+func returnLowestAndHighest(numbers: [Double]) -> (Double, Double) {
+  var numbersSorted = numbers
+  numbersSorted.sort(<)
+  
+  return (numbersSorted.first!, numbersSorted.last!)
+}
+let nums = [22.0, 5166.6, 33.4, 11.0, 5.0, 345.03]
+returnLowestAndHighest(nums)
 
 
+//Tuesday Challenge: Given an array of ints of odd length, return a new array length 3 containing the elements from the middle of the array. The array length will be at least 3.
 
-
-//Tuesday Challenge: Given an array of ints of odd length, return a new array length 3 containing the elements from the middle of the array. The array length will be at least 3. 
 
 
 //Wednesday Challenge: Given a non-negative number "num", return true if num is within 2 of a multiple of 10. Note: (a % b) is the remainder of dividing a by b, so (7 % 5) is 2
