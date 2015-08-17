@@ -15,7 +15,29 @@ returnLowestAndHighest(nums)
 
 
 //Tuesday Challenge: Given an array of ints of odd length, return a new array length 3 containing the elements from the middle of the array. The array length will be at least 3.
+func returnMiddleThreeFromOddArray(intArray: [Int]) -> [Int] {
+  var middleThree = [Int]()
+  
+  if intArray.count < 3 {
+    println("Int array must contain at least three elements.")
+  } else if intArray.count % 2 == 0 {
+    println("This function only accepts arrays containing an odd number of elements.")
+  } else {
+    let middleIndex = (intArray.count - 1)/2
+    middleThree.append(intArray[middleIndex - 1])
+    middleThree.append(intArray[middleIndex])
+    middleThree.append(intArray[middleIndex + 1])
+  }
+  return middleThree
+}
 
+let sampleIntArray1 = [33, 666, 21, 1999, 800, 2, 0]
+let sampleIntArray2 = [2]
+let sampleIntArray3 = [12, 13, 14, 15]
+
+returnMiddleThreeFromOddArray(sampleIntArray1)
+returnMiddleThreeFromOddArray(sampleIntArray2)
+returnMiddleThreeFromOddArray(sampleIntArray3)
 
 
 //Wednesday Challenge: Given a non-negative number "num", return true if num is within 2 of a multiple of 10. Note: (a % b) is the remainder of dividing a by b, so (7 % 5) is 2

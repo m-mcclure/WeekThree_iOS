@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18A1EA1A-F0C8-4D14-B5F7-E143A326D263</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week3Challenges</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08C0CBAC2415ED4AEF51CD77BC9BB5B8F50CAA45</key>
+		<string>https://github.com/mcclure15/WeekThree_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week3Challenges.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08C0CBAC2415ED4AEF51CD77BC9BB5B8F50CAA45</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mcclure15/WeekThree_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08C0CBAC2415ED4AEF51CD77BC9BB5B8F50CAA45</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08C0CBAC2415ED4AEF51CD77BC9BB5B8F50CAA45</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WeekThree_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
